@@ -20,9 +20,9 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
    height: auto;
    max-width: 1080px;
    max-height: 1080px;
+   border-bottom: 10px, solid, black;
 
 }
-
 
 .wrapper {
   display: grid;
@@ -71,19 +71,9 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .site-header {
-
-
-    margin-bottom: var(--space-stack-xl);
+   
+    margin-bottom: var(--space-stack-xl);   
     border-bottom-style: solid;
-
-    background-color: var(--color-head);
-    margin-bottom: var(--space-stack-xl);
-    grid-column-start: 1;
-
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
 }
 
 .site-header__content {
@@ -95,13 +85,13 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .brand-logo {
 
-
-
+  
+      
     width: 234px;
     height: 123px;
     margin-left: 20px;
-
-
+    
+    
 
     width: calc(var(--site-width)/5);
     padding-top: var(--space-stack-m);
@@ -266,3 +256,5 @@ ul__horizontal li a {
 .member__avatar img {
     border-radius: 50%;
 }
+
+
