@@ -10,7 +10,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .content {
-    max-width: var(--content-width);
+    max-width: var(--site-width);
     margin: 0 auto;
 }
 
@@ -20,4 +20,11 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .section {
     padding-bottom: var(--space-stack-xl);
+    margin-bottom: var(--space-stack-xl);
+}
+
+.section__header {
+    border-bottom: solid 1px var(--color-border);
+    margin-bottom: var(--space-stack-xl);
+    text-align: center;
 }
