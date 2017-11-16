@@ -16,7 +16,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 
 
-=======
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -64,11 +64,10 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .site-header {
-<<<<<<< HEAD
+
    
     margin-bottom: var(--space-stack-xl);   
     border-bottom-style: solid;
-=======
     background-color: var(--color-head);
     margin-bottom: var(--space-stack-xl);
     grid-column-start: 1;
@@ -76,7 +75,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
->>>>>>> 3ea78bfd695a3260eba8d6695ef6d7b203e47c4b
 }
 
 .site-header__content {
@@ -177,14 +175,12 @@ ul__horizontal li a {
     padding-right: var(--space-inset-xs);
 }
 
-<<<<<<< HEAD
 
-=======
 .nav__horizontal .nav__item + .nav__item {
     border-left: solid 1px var(--color-border);
     padding-left: var(--space-inset-xs);
 }
->>>>>>> 3ea78bfd695a3260eba8d6695ef6d7b203e47c4b
+
 
 
 /* Staff
@@ -201,7 +197,7 @@ ul__horizontal li a {
 .staff__member + .staff__member + .staff__member {
     border-top: solid 1px var(--color-border);
     padding-top: var(--space-stack-xl);
-    margin-top: var(--space-stack-xl);
+    */margin-top: var(--space-stack-xl);
 }
 
 .staff__member .title {
@@ -226,11 +222,11 @@ ul__horizontal li a {
     line-height: 0;
     display: inline-block;
     margin: 5px;
-    border: 2px solid rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
+    border: 20px solid rgba(255, 255, 255, 0.4);
+    border-radius: 25%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
-    height: 25%;
-    width: 25%;
+    height: 200px;
+    width: 200px;
     float: left;
     margin-right: var(--space-inset-l);
 }
