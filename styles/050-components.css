@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------------------
-components.css                                                                  
-Enthält alle Regeln zu Komponenten.  
+components.css
+Enthält alle Regeln zu Komponenten.
 
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
@@ -16,6 +16,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .TeamBigBang{
 
+<<<<<<< HEAD
    width: auto;
    height: auto;
    max-width: 1080px;
@@ -24,6 +25,8 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 =======
+=======
+>>>>>>> 4ffbd559d3cbd2e3a896382ad14e1a53eab1e491
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -34,7 +37,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
  grid-column: 1 / span 1;
   grid-row: 1 / span 1;
 }
-.two { 
+.two {
  grid-column: 2 / span 1;
   grid-row: 1 / span 1;
 }
@@ -71,25 +74,56 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .site-header {
+<<<<<<< HEAD
    
     margin-bottom: var(--space-stack-xl);   
     border-bottom-style: solid;
+=======
+
+
+   
+    margin-bottom: var(--space-stack-xl);   
+    border-bottom-style: solid;
+
+    margin-bottom: var(--space-stack-xl);
+
+    border-bottom-style: solid;
+
+    background-color: var(--color-head);
+    margin-bottom: var(--space-stack-xl);
+    grid-column-start: 1;
+
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+>>>>>>> 4ffbd559d3cbd2e3a896382ad14e1a53eab1e491
 }
 
 .site-header__content {
     max-width: var(--site-width);
     margin: 0 auto;
     text-align: center;
-    
+
 }
 
 .brand-logo {
+
+  
+      
+    width: 234px;
+    height: 123px;
+    margin-left: 20px;
+    
+    
+
     width: calc(var(--site-width)/5);
     padding-top: var(--space-stack-m);
     padding-bottom: var(--space-stack-m);
     display: inline-block;
-    
-   
+
+
+
 }
 
 
@@ -97,38 +131,38 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .nav {
- 
+
     margin: 0;
 
-     
+
     display: block;
-   
+
     text-align: center;
     padding: 30px 30px;
-    
+
     text-decoration: none;
     font-size: 25px;
     color: #000;
-    
-    
+
+
     border-bottom: 10px, solid, black;
-    
-   
+
+
 }
 
 .nav li:hover {
     background-color: #aaa;
-    
+
 }
 
 .nav li:active {
-    
-  background-color: #aaa;   
+
+  background-color: #aaa;
   cursor: default;
 }
 
 .nav__item {
-    
+
   font-family: 'Oswald', sans-serif;
   font-size: 1.2em;
   line-height: 40px;
@@ -137,23 +171,23 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 .nav__item a {
-    
+
   text-decoration: none;
   color: #fff;
   display: block;
   transition: .3s background-color;
   color: black;
-    
+
 }
 
 .nav__horizontal {
-   
+
   list-style: none;
 
   text-align: center;
   padding: 0;
   margin: 0;
-    
+
     overflow: hidden;
     float: right;
     float: bottom;
@@ -168,20 +202,18 @@ ul__horizontal li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-    
+
 .nav__horizontal .nav__item {
     display: inline-block;
     padding-right: var(--space-inset-xs);
 }
 
-<<<<<<< HEAD
 
-=======
 .nav__horizontal .nav__item + .nav__item {
     border-left: solid 1px var(--color-border);
     padding-left: var(--space-inset-xs);
 }
->>>>>>> 3ea78bfd695a3260eba8d6695ef6d7b203e47c4b
+
 
 
 /* Staff
@@ -198,7 +230,7 @@ ul__horizontal li a {
 .staff__member + .staff__member + .staff__member {
     border-top: solid 1px var(--color-border);
     padding-top: var(--space-stack-xl);
-    margin-top: var(--space-stack-xl);
+    */margin-top: var(--space-stack-xl);
 }
 
 .staff__member .title {
@@ -223,12 +255,12 @@ ul__horizontal li a {
     line-height: 0;
     display: inline-block;
     margin: 5px;
-    border: 2px solid rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
+    border: 20px solid rgba(255, 255, 255, 0.4);
+    border-radius: 25%;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
-    height: 25%;
-    width: 25%;
-    float: left;
+    height: 200px;
+    width: 200px;
+    float: center;
     margin-right: var(--space-inset-l);
 }
 
