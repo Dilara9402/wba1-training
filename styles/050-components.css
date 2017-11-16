@@ -5,7 +5,6 @@ Enthält alle Regeln zu Komponenten.
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
 
-
 .container {
     height: 100vh;
     display: grid;
@@ -14,55 +13,61 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 }
 
-.TeamBigBang{
-
-   width: auto;
-   height: auto;
-   max-width: 1080px;
-   max-height: 1080px;
+.TeamBigBang {
+    margin-top:100px;
+    width: auto;
+    height: auto;
+    max-width: 1080px;
+    max-height: 1080px;
 
 }
 
 
 .wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
 }
+
 .one {
- grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
 }
+
 .two {
- grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
 }
+
 .three {
-  grid-column: 1 / span 1;
-  grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
 }
+
 .four {
-   grid-column: 2 / span 1;
-  grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
 }
+
 .five {
-   grid-column: 1 / span 1;
-  grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
 }
+
 .six {
-   grid-column: 2 / span 1;
-  grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
 }
 
 .seven {
-   grid-column: 1 / span 1;
-  grid-row: 4 / span 1;
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
 }
 
 .eight {
-   grid-column: 3 / span 1;
-  grid-row: 1 / span 4;
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 4;
 }
 
 
@@ -96,7 +101,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .brand-logo {
 
 
-
+    margin-top: -100px;
     width: 10px;
     height: auto;
     
@@ -124,14 +129,19 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     display: block;
 
     text-align: center;
-    padding: 30px 30px;
+    padding: 30px 30px 0px 0px ;
+
+    
 
     text-decoration: none;
     font-size: 25px;
     color: #000;
+    
+
+    position:fixed;
+    background-color:white;
 
 
-    border-bottom: 10px, solid, black;
 
 
 }
@@ -143,43 +153,46 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .nav li:active {
 
-  background-color: #aaa;
-  cursor: default;
+    background-color: #aaa;
+    cursor: default;
 }
 
 .nav__item {
 
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
 
 }
 
 .nav__item a {
 
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: .3s background-color;
-  color: black;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+    color: black;
 
 }
 
 .nav__horizontal {
 
-  list-style: none;
+    list-style: none;
 
-  text-align: center;
-  padding: 0;
-  margin: 0;
+    text-align: center;
+    padding: 0;
+    margin-top: -10px;
+   
 
     overflow: hidden;
     float: right;
     float: bottom;
 }
 
-ul__horizontal li {float: left;}
+ul__horizontal li {
+    float: left;
+}
 
 ul__horizontal li a {
     display: block;
