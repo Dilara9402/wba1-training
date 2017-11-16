@@ -14,7 +14,14 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 }
 
+.TeamBigBang{
 
+   width: auto;
+   height: auto;
+   max-width: 1080px;
+   max-height: 1080px;
+
+}
 
 =======
 .wrapper {
@@ -64,19 +71,9 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .site-header {
-<<<<<<< HEAD
    
     margin-bottom: var(--space-stack-xl);   
     border-bottom-style: solid;
-=======
-    background-color: var(--color-head);
-    margin-bottom: var(--space-stack-xl);
-    grid-column-start: 1;
-
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
->>>>>>> 3ea78bfd695a3260eba8d6695ef6d7b203e47c4b
 }
 
 .site-header__content {
@@ -251,3 +248,5 @@ ul__horizontal li a {
 .member__avatar img {
     border-radius: 50%;
 }
+
+
