@@ -15,8 +15,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 
-
-=======
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -64,11 +62,11 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .site-header {
-<<<<<<< HEAD
+
    
     margin-bottom: var(--space-stack-xl);   
     border-bottom-style: solid;
-=======
+
     background-color: var(--color-head);
     margin-bottom: var(--space-stack-xl);
     grid-column-start: 1;
@@ -76,7 +74,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
->>>>>>> 3ea78bfd695a3260eba8d6695ef6d7b203e47c4b
+
 }
 
 .site-header__content {
@@ -87,10 +85,12 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 .brand-logo {
-    width: calc(var(--site-width)/5);
-    padding-top: var(--space-stack-m);
-    padding-bottom: var(--space-stack-m);
-    display: inline-block;
+  
+      
+    width: 234px;
+    height: 123px;
+    margin-left: 20px;
+    
     
    
 }
@@ -103,7 +103,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
  
     margin: 0;
 
-     
     display: block;
    
     text-align: center;
@@ -177,14 +176,13 @@ ul__horizontal li a {
     padding-right: var(--space-inset-xs);
 }
 
-<<<<<<< HEAD
 
-=======
+
+
 .nav__horizontal .nav__item + .nav__item {
     border-left: solid 1px var(--color-border);
     padding-left: var(--space-inset-xs);
 }
->>>>>>> 3ea78bfd695a3260eba8d6695ef6d7b203e47c4b
 
 
 /* Staff
