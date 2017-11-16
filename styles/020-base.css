@@ -5,7 +5,6 @@ Enthält alle CSS Variabeln und grundlegende Regeln sowie zentrale helper.
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
 
-
 /* Variables
 -----------------------------------------------------------------------------*/
 
@@ -18,7 +17,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     --color-text: ##333;
     --color-text-light: #777;
     --color-footer: #2e3234;
-    --color-head: #192c49;
     --site-width: 1200px;
     --brand-font: 'Passion One', sans-serif;
     /*
