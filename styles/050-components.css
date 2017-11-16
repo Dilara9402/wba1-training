@@ -63,9 +63,15 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .site-header {
 
+
+   
+    margin-bottom: var(--space-stack-xl);   
+    border-bottom-style: solid;
+
     margin-bottom: var(--space-stack-xl);
 
     border-bottom-style: solid;
+
     background-color: var(--color-head);
     margin-bottom: var(--space-stack-xl);
     grid-column-start: 1;
@@ -73,6 +79,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
+
 }
 
 .site-header__content {
@@ -83,10 +90,20 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 .brand-logo {
+
+  
+      
+    width: 234px;
+    height: 123px;
+    margin-left: 20px;
+    
+    
+
     width: calc(var(--site-width)/5);
     padding-top: var(--space-stack-m);
     padding-bottom: var(--space-stack-m);
     display: inline-block;
+
 
 
 }
