@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------------------
-components.css                                                                  
-Enthält alle Regeln zu Komponenten.  
+components.css
+Enthält alle Regeln zu Komponenten.
 
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
@@ -15,8 +15,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 
-
-
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -27,7 +25,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
  grid-column: 1 / span 1;
   grid-row: 1 / span 1;
 }
-.two { 
+.two {
  grid-column: 2 / span 1;
   grid-row: 1 / span 1;
 }
@@ -65,8 +63,8 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .site-header {
 
-   
-    margin-bottom: var(--space-stack-xl);   
+    margin-bottom: var(--space-stack-xl);
+
     border-bottom-style: solid;
     background-color: var(--color-head);
     margin-bottom: var(--space-stack-xl);
@@ -81,7 +79,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     max-width: var(--site-width);
     margin: 0 auto;
     text-align: center;
-    
+
 }
 
 .brand-logo {
@@ -89,8 +87,8 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     padding-top: var(--space-stack-m);
     padding-bottom: var(--space-stack-m);
     display: inline-block;
-    
-   
+
+
 }
 
 
@@ -98,38 +96,38 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .nav {
- 
+
     margin: 0;
 
-     
+
     display: block;
-   
+
     text-align: center;
     padding: 30px 30px;
-    
+
     text-decoration: none;
     font-size: 25px;
     color: #000;
-    
-    
+
+
     border-bottom: 10px, solid, black;
-    
-   
+
+
 }
 
 .nav li:hover {
     background-color: #aaa;
-    
+
 }
 
 .nav li:active {
-    
-  background-color: #aaa;   
+
+  background-color: #aaa;
   cursor: default;
 }
 
 .nav__item {
-    
+
   font-family: 'Oswald', sans-serif;
   font-size: 1.2em;
   line-height: 40px;
@@ -138,23 +136,23 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 .nav__item a {
-    
+
   text-decoration: none;
   color: #fff;
   display: block;
   transition: .3s background-color;
   color: black;
-    
+
 }
 
 .nav__horizontal {
-   
+
   list-style: none;
 
   text-align: center;
   padding: 0;
   margin: 0;
-    
+
     overflow: hidden;
     float: right;
     float: bottom;
@@ -169,7 +167,7 @@ ul__horizontal li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-    
+
 .nav__horizontal .nav__item {
     display: inline-block;
     padding-right: var(--space-inset-xs);
@@ -227,7 +225,7 @@ ul__horizontal li a {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
     height: 200px;
     width: 200px;
-    float: left;
+    float: center;
     margin-right: var(--space-inset-l);
 }
 
