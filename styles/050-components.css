@@ -6,13 +6,77 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
 
 
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 300px 1fr 100px;
+    grid-template-columns: 35% 35% 30%;
+
+}
+
+
+
+=======
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+ grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.two { 
+ grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.three {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+.four {
+   grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.five {
+   grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+.six {
+   grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.seven {
+   grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.eight {
+   grid-column: 3 / span 1;
+  grid-row: 1 / span 4;
+}
+
+
+
 /* Site Header
 -----------------------------------------------------------------------------*/
 
 .site-header {
+<<<<<<< HEAD
    
     margin-bottom: var(--space-stack-xl);   
     border-bottom-style: solid;
+=======
+    background-color: var(--color-head);
+    margin-bottom: var(--space-stack-xl);
+    grid-column-start: 1;
+
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+>>>>>>> 3ea78bfd695a3260eba8d6695ef6d7b203e47c4b
 }
 
 .site-header__content {
@@ -113,7 +177,14 @@ ul__horizontal li a {
     padding-right: var(--space-inset-xs);
 }
 
+<<<<<<< HEAD
 
+=======
+.nav__horizontal .nav__item + .nav__item {
+    border-left: solid 1px var(--color-border);
+    padding-left: var(--space-inset-xs);
+}
+>>>>>>> 3ea78bfd695a3260eba8d6695ef6d7b203e47c4b
 
 
 /* Staff
@@ -127,7 +198,7 @@ ul__horizontal li a {
     padding-bottom: var(--space-stack-xl);
 }
 
-.staff__member+.staff__member {
+.staff__member + .staff__member + .staff__member {
     border-top: solid 1px var(--color-border);
     padding-top: var(--space-stack-xl);
     margin-top: var(--space-stack-xl);
