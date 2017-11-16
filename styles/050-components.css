@@ -16,7 +16,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .TeamBigBang{
 
-<<<<<<< HEAD
    width: auto;
    height: auto;
    max-width: 1080px;
@@ -24,9 +23,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 }
 
-=======
-=======
->>>>>>> 4ffbd559d3cbd2e3a896382ad14e1a53eab1e491
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -74,19 +71,9 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .site-header {
-<<<<<<< HEAD
-   
-    margin-bottom: var(--space-stack-xl);   
-    border-bottom-style: solid;
-=======
 
-
-   
-    margin-bottom: var(--space-stack-xl);   
-    border-bottom-style: solid;
 
     margin-bottom: var(--space-stack-xl);
-
     border-bottom-style: solid;
 
     background-color: var(--color-head);
@@ -97,7 +84,6 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     grid-row-start: 1;
     grid-row-end: 2;
 
->>>>>>> 4ffbd559d3cbd2e3a896382ad14e1a53eab1e491
 }
 
 .site-header__content {
@@ -109,13 +95,13 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .brand-logo {
 
-  
-      
+
+
     width: 234px;
     height: 123px;
     margin-left: 20px;
-    
-    
+
+
 
     width: calc(var(--site-width)/5);
     padding-top: var(--space-stack-m);
@@ -280,5 +266,3 @@ ul__horizontal li a {
 .member__avatar img {
     border-radius: 50%;
 }
-
-
