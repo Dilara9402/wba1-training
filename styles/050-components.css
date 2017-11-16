@@ -14,14 +14,28 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 }
 
 .TeamBigBang {
+<<<<<<< HEAD
     margin-top:100px;
+=======
+
+<<<<<<< HEAD
+   width: auto;
+   height: auto;
+   max-width: 1080px;
+   max-height: 1080px;
+   border-bottom: 10px, solid, black;
+=======
+>>>>>>> c6770b643882c760257fce0c8b3ebcdcca80de5f
     width: auto;
     height: auto;
     max-width: 1080px;
     max-height: 1080px;
+<<<<<<< HEAD
+=======
+>>>>>>> 92ab9a9946c55963a7dbef7764672c0b21e7ae77
+>>>>>>> c6770b643882c760257fce0c8b3ebcdcca80de5f
 
 }
-
 
 .wrapper {
     display: grid;
@@ -76,19 +90,9 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .site-header {
-
-
-    margin-bottom: var(--space-stack-xl);
+   
+    margin-bottom: var(--space-stack-xl);   
     border-bottom-style: solid;
-
-    background-color: var(--color-head);
-    margin-bottom: var(--space-stack-xl);
-    grid-column-start: 1;
-
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
 }
 
 .site-header__content {
@@ -100,6 +104,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
 .brand-logo {
 
+<<<<<<< HEAD
 
     margin-top: -100px;
     width: 10px;
@@ -107,6 +112,15 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     
 
 
+=======
+  
+      
+    width: 234px;
+    height: 123px;
+    margin-left: 20px;
+    
+    
+>>>>>>> c6770b643882c760257fce0c8b3ebcdcca80de5f
 
     width: calc(var(--site-width)/5);
     padding-top: var(--space-stack-m);
@@ -182,8 +196,12 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 
     text-align: center;
     padding: 0;
+<<<<<<< HEAD
     margin-top: -10px;
    
+=======
+    margin-top: 66px;
+>>>>>>> c6770b643882c760257fce0c8b3ebcdcca80de5f
 
     overflow: hidden;
     float: right;
@@ -279,3 +297,5 @@ ul__horizontal li a {
 .member__avatar img {
     border-radius: 50%;
 }
+
+
