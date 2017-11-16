@@ -5,6 +5,22 @@ Enthält alle Regeln zu Komponenten.
 Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 ----------------------------------------------------------------------------*/
 
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 300px 1fr 100px;
+    grid-template-columns: 35% 35% 30%;
+
+}
+
+
+aside {
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
 
 /* Site Header
 -----------------------------------------------------------------------------*/
@@ -12,6 +28,11 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 .site-header {
     background-color: var(--color-head);
     margin-bottom: var(--space-stack-xl);
+    grid-column-start: 1;
+
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .site-header__content {
@@ -54,7 +75,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     padding-right: var(--space-inset-xs);
 }
 
-.nav__horizontal .nav__item+.nav__item {
+.nav__horizontal .nav__item + .nav__item {
     border-left: solid 1px var(--color-border);
     padding-left: var(--space-inset-xs);
 }
@@ -71,7 +92,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     padding-bottom: var(--space-stack-xl);
 }
 
-.staff__member+.staff__member {
+.staff__member + .staff__member {
     border-top: solid 1px var(--color-border);
     padding-top: var(--space-stack-xl);
     margin-top: var(--space-stack-xl);
