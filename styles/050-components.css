@@ -10,21 +10,25 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .site-header {
-    background-color: var(--color-head);
-    margin-bottom: var(--space-stack-xl);
+   
+    margin-bottom: var(--space-stack-xl);   
+    border-bottom-style: solid;
 }
 
 .site-header__content {
     max-width: var(--site-width);
     margin: 0 auto;
     text-align: center;
+    
 }
 
 .brand-logo {
-    width: calc(var(--site-width)/10);
+    width: calc(var(--site-width)/5);
     padding-top: var(--space-stack-m);
-    padding-bottom: var(--space-stack-xl);
+    padding-bottom: var(--space-stack-m);
     display: inline-block;
+    
+   
 }
 
 
@@ -32,32 +36,84 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
 -----------------------------------------------------------------------------*/
 
 .nav {
-    padding: 0;
+ 
     margin: 0;
+
+     
+    display: block;
+   
+    text-align: center;
+    padding: 30px 30px;
+    
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    
+    
+    border-bottom: 10px, solid, black;
+    
+   
+}
+
+.nav li:hover {
+    background-color: #aaa;
+    
+}
+
+.nav li:active {
+    
+  background-color: #aaa;   
+  cursor: default;
 }
 
 .nav__item {
-    display: block;
+    
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+
 }
 
 .nav__item a {
-    text-decoration: none;
-    color: #fff;
+    
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+  color: black;
+    
 }
 
 .nav__horizontal {
-    padding-bottom: var(--space-stack-s);
+   
+  list-style: none;
+
+  text-align: center;
+  padding: 0;
+  margin: 0;
+    
+    overflow: hidden;
+    float: right;
+    float: bottom;
 }
 
+ul__horizontal li {float: left;}
+
+ul__horizontal li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
 .nav__horizontal .nav__item {
     display: inline-block;
     padding-right: var(--space-inset-xs);
 }
 
-.nav__horizontal .nav__item+.nav__item {
-    border-left: solid 1px var(--color-border);
-    padding-left: var(--space-inset-xs);
-}
+
 
 
 /* Staff
